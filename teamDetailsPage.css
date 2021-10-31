@@ -1,0 +1,129 @@
+body
+{
+    width:100%;
+    
+    margin:0px;
+    color: rgba(255, 255, 255,.6);
+    padding:0px;
+}
+.topBar
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 6%, rgba(0,212,255,1) 100%);
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding:15px;
+    
+}
+p{
+    font-size:16px;
+    text-transform:capitalize;
+}
+.logodiv
+{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    padding:15px;
+    background-color:white;
+}
+.teamlogo
+{
+    width:100%;
+    height:100%;
+}
+.teamtitle
+{
+    font-size:34px;
+    font-weight:700;
+    font-family: 'Pacifico', cursive;
+    color: rgba(255, 255, 255,.6);
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px;
+    text-transform:uppercase;
+}
+.grid
+{
+    box-shadow: 6px 6px 23px 5px rgba(0,0,0,0.34);
+-webkit-box-shadow: 6px 6px 23px 5px rgba(0,0,0,0.34);
+-moz-box-shadow: 6px 6px 23px 5px rgba(0,0,0,0.34);
+    display:flex;
+    width:350px;
+    height:100px;
+    cursor:pointer;
+    /* background-color:rgba(0, 0, 0, 0.3);
+    opacity:100; */
+    margin-top: 40px;
+    margin-left:10%;
+}
+.img
+{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    padding:10px;
+    background-color: white;
+}
+.gridlogo
+{
+    width:100%;
+    height:100%;
+}
+.setstyle
+{
+    margin-left:15px;
+    display:flex;
+    flex-direction:column;
+    
+}
+.setstyle p
+{
+    margin:0px;
+    padding:0px;
+}
+.person
+{
+    color:white;
+    font-size:18px;
+    padding:0px;
+    margin-bottom:0px;
+    text-transform:uppercase;
+}
+.grids
+{
+    display:flex;
+    flex-direction:column;
+}
+.box
+{
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+    width:500px;
+    height:60vh;
+    background-color:rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 90px;
+}
+.pagepart
+{
+    display:flex;
+    justify-content:space-around;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 6%, rgba(0,212,255,1) 100%);
+}
+.playertext
+{
+    margin-top:15px;
+    font-size:33px;
+}
+.item
+{
+    box-shadow:2px 2px 2px #eee;
+    margin-bottom:40px;
+    color: white;
+}
+.value
+{
+    color:yellow;
+    margin-left:13px;
+}
